@@ -1,5 +1,5 @@
 body {
-  color: teal;
+  color: lightslategrey;
   background-color: black;
   margin-bottom: 100px;
   padding-top: 15px;
@@ -10,14 +10,25 @@ body {
 
 h1,
 h2 {
-  color: lightslategray;
+  color: teal;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-style: italic;
 }
 
 hr {
-  color: slategray;
+  color: darkgray;
 }
 
 .headingContainer {
   display: flex;
   flex-direction: row;
+}
+
+heading {
+  margin: 0 1.5em 0 0;
+}
+
+projectContainer {
+  padding: 10px;
+  background-color: darkviolet;
 }
