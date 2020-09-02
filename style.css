@@ -8,10 +8,16 @@ body {
   padding-left: 15px;
 }
 
-.headingContainer {
-  display: flexbox;
+h1,
+h2 {
+  color: lightslategray;
 }
 
-.heading {
+hr {
+  color: slategray;
+}
+
+.headingContainer {
   display: flex;
+  flex-direction: row;
 }
