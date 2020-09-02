@@ -1,5 +1,14 @@
+@font-face {
+  font-family: 'the_unseenregular';
+  src: url('font/the_unseen-webfont.woff2') format('woff2'),
+    url('font/the_unseen-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
 body {
   color: lightslategrey;
+  font-family: 'optima';
   background-color: black;
   margin-bottom: 100px;
   padding-top: 15px;
@@ -8,11 +17,20 @@ body {
   padding-left: 15px;
 }
 
-h1,
+h1 {
+  font-size: 3.5em;
+}
+
 h2 {
+  font-size: 2em;
+}
+
+h1,
+h2,
+h3 {
   color: teal;
-  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-  font-style: italic;
+  font-family: 'the_unseenregular';
+  /* font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; */
 }
 
 hr {
@@ -28,7 +46,12 @@ hr {
   margin: 0 1.5em 0 0;
 }
 
-.projectContainer {
+.projectsContainer {
   padding: 10px;
-  background-color: darkviolet;
+}
+
+.projectContainer {
+  padding: 20px;
+  background-color: #212333;
+  margin: 0 1.5em 1.5em 1.5em;
 }
