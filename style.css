@@ -24,11 +24,11 @@ hr {
   flex-direction: row;
 }
 
-heading {
+.heading {
   margin: 0 1.5em 0 0;
 }
 
-projectContainer {
+.projectContainer {
   padding: 10px;
   background-color: darkviolet;
 }
