@@ -10,7 +10,7 @@ body {
   color: lightslategrey;
   font-family: 'optima';
   background-color: black;
-  margin-bottom: 100px;
+  margin-bottom: 50px;
   padding-top: 15px;
   padding-bottom: 15px;
   padding-right: 15px;
@@ -34,7 +34,7 @@ h3 {
 }
 
 hr {
-  border: 1px solid rgb(67, 1, 95);
+  border: 1px solid rgb(145, 7, 204);
 }
 
 ul {
@@ -48,12 +48,54 @@ ul li {
   flex: 1 0 25%;
 }
 
+footer {
+  justify-content: center;
+  font-size: 10px;
+  margin-top: 20px;
+  display: flex;
+}
+footer span {
+  margin: 0 1.5em 0 0;
+}
+
+a.heading:link,
+a.heading:visited,
+a.heading:active {
+  color: teal;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a.heading:hover {
+  color: rgb(36, 230, 230);
+  background-color: transparent;
+  font-style: italic;
+}
+
+a.project:link,
+a.project:visited,
+a.project:active {
+  color: rgb(145, 7, 204);
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a.project:hover {
+  color: rgb(207, 103, 252);
+  background-color: transparent;
+  font-style: italic;
+}
+
 .headingContainer {
   display: flex;
   flex-direction: row;
 }
 
 .heading {
+  margin: 0 1.5em 0 0;
+}
+
+.project {
   margin: 0 1.5em 0 0;
 }
 
